@@ -37,7 +37,7 @@ main{
   background-color:rgb(78,214,78,0.8)
 }
 .desc{
-  color:white;
+  color:#555;
   text-align:center}
 .name{
   color:white;
@@ -77,7 +77,8 @@ main{
   border-radius:10px
 }
 .adigun{
-  text-decoration:underline
+  text-decoration:underline;
+  color:#555!important
 }
 img{
   box-shado: 0px 2px 2px black;margin-bottom:20px;
