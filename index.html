@@ -1,0 +1,118 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--font awesome-->
+  <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel = "stylesheet" href = "index.css">
+<!--glyphicon cdn-->
+<link rel = "stylesheet" href = "http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">  
+  <title>Search For A Giphy</title>
+  
+</head>
+<body>
+<div class="main">
+<h4 class="head">Search-A-Giphy</h4>
+
+<div class="desc2">
+<div class = "container-fluid title">
+  <div class="row">
+    <div class="col-xs-offset-2 col-xs-8">
+      <h3 class="desc">Browse through our collections of giphy with any keyword you can imagine</h3>
+    </div>
+  </div>
+  <div>
+      <h5 class="browse" id="btn"><span class="glyphicon glyphicon-search"> </span> Search</h5>
+      
+  </div>
+  <br>
+    <div class = "row searchMenu">
+    <div class = "col-xs-8">
+      <input type = "text" id = "searchInput" placeholder="Type in keyword(s)" valu="earth">
+    </div>
+    <div class="col-xs-4">
+      <input type = "number" placeholder="number of gifs" value="8" id="searchNumber">
+    </div>
+    <!--<div class = "col-xs-3">
+      <button type = "button" id = "btn"><span class = "glyphicon glyphicon-search"></span> Search</button>
+    </div>-->
+  </div>
+  <div>
+    <h6 class="name">Created by <span class="adigun"><b>Adigun Ibrahim</b></span></h6>
+  </div>
+</div>
+</div>
+<br>
+
+<div class="result">
+<div class="container startup">
+  <div class="row">
+    <div class="col-sm-3 image">
+        <img src="https://media3.giphy.com/media/nXxOjZrbnbRxS/200.gif" width="250px" height="250px"> 
+    </div>
+    <div class="col-sm-3 image">
+        <img src="https://media1.giphy.com/media/S3Ot3hZ5bcy8o/200.gif" width="250px" height="250px">
+    </div>
+    <div class="col-sm-3 image">
+        <img src="https://media3.giphy.com/media/nXxOjZrbnbRxS/200.gif" width="250px" height="250px"> 
+    </div>
+    <div class="col-sm-3 image">
+        <img src="https://media1.giphy.com/media/S3Ot3hZ5bcy8o/200.gif" width="250px" height="250px">
+    </div>
+    <div class="col-sm-3 image">
+        <img src="https://media3.giphy.com/media/nXxOjZrbnbRxS/200.gif" width="250px" height="250px"> 
+    </div>
+    <div class="col-sm-3 image">
+        <img src="https://media1.giphy.com/media/S3Ot3hZ5bcy8o/200.gif" width="250px" height="250px">
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="container grandpa">
+  <div class="row parent" id="gif">
+    <div class="col-sm-4 child">
+      <!--<img src="pix.png" width="200px" height="200px">-->
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h5><b>Search-A-Giphy</b></h5>
+      </div>
+      <div class="col-sm-8">
+        <h6>Created & Designed by <span class="adigun"><b>Adigun Ibrahim</b></span></h6>
+        <h3><i class="fa fa-facebook"></i></h3>
+        <h3><span class="fa fa-twitter"></span></h3>
+        <h3><span class="fa fa-instagram"></span></h3>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<h3 id="input"></h3>
+<h3 id="number"></h3>
+
+
+</div>
+
+
+
+<script src="index.js"></script>
+</body>  
